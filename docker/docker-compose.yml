@@ -1,0 +1,30 @@
+version: '3.3'
+services:
+  inventory-api:
+    container_name: inventory-api
+    image: inventory-api
+    build:
+      context: ..
+      dockerfile: ./docker/Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - DB_HOST=inventory-db
+      - DB_HOST_PORT=5432
+      - DB_NAME=inventory
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=postgres
+    depends_on:
+      - "postgres"
+  postgres:
+    image: postgres:10.4
+    container_name: inventory-db
+    expose:
+      - 5432
+    ports:
+      - "5433:5432"
+    environment:
+      - POSTGRES_DB=inventory
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    restart: unless-stopped
