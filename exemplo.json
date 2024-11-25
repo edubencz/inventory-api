@@ -1,133 +1,124 @@
 {
-	"companyId": null,
-	"module": "ressus",
-	"data": {
-		"unidade": " - Registro ANS: 355691",
-		"unimedDto": [
-			{
-				"unimed": "976 UNIMED DO ESTADO DE STA CATARINA FEDERACAO ESTADUAL DAS COOP MEDICAS",
-				"atendimentos": [
-					{
-						"abi": "73°",
-						"tipo": "AIH",
-						"contagem": 127,
-						"cco": "039140561609",
-						"beneficiario": "976300001218409 - EVELLYN TOBIAS",
-						"cpf": "093.770.991-37",
-						"empresaContratante": "1101 - CEREALISTA PARISCHI",
-						"atendimento": "2716100187340",
-						"competencia": "02/2017",
-						"caraterAtendimento": "2 - Urgência/Emergência",
-						"valorAtendimento": 1102.75,
-						"valorDeducao": 1,
-						"valorDeducaoDeferida": 0,
-						"valorRetificado": 1101.75,
-						"valorRessarcimento": 1101.75,
-						"prestador": [
-							{
-								"nome": "2005026 - CASA DE SAUDE E MAT N SRA DE FATIMA LTDA",
-								"periodo": "03/02/2017 a 05/02/2017",
-								"endereco": "Rua Fernandes Lima 312 Centro",
-								"cep": "57300-070",
-								"cidade": "Arapiraca/AL"
-							}
-						],
-						"empresa": [
-							{
-								"numeroContrato": "30000001",
-								"planoAns": "448675047",
-								"dataEnvioOperacional": "2024-01-17",
-								"guiaOperacional": "568 9 8889",
-								"numeroFatura": "",
-								"formacaoPreco": "CO - CUSTO OPERACIONAL"
-							}
-						],
-						"procedimentos": [
-							{
-								"sequencia": 1,
-								"codigo": "0411010034",
-								"descricao": "PARTO CESARIANO",
-								"quantidade": 1,
-								"valor": 818.59
-							},
-							{
-								"sequencia": 2,
-								"codigo": "0301010145",
-								"descricao": "PRIMEIRA CONSULTA DE PEDIATRIA AO RECEM-",
-								"quantidade": 1,
-								"valor": 15
-							},
-							{
-								"sequencia": 3,
-								"codigo": "0310010020",
-								"descricao": "ATENDIMENTO AO RECEM-NASCIDO NO MOMENTO ",
-								"quantidade": 1,
-								"valor": 82.8
-							},
-							{
-								"sequencia": 4,
-								"codigo": "0417010010",
-								"descricao": "ANESTESIA OBSTETRICA P/ CESARIANA",
-								"quantidade": 1,
-								"valor": 91.77
-							},
-							{
-								"sequencia": 5,
-								"codigo": "0802010032",
-								"descricao": "DIARIA DE ACOMPANHANTE DE GESTANTE C/ PE",
-								"quantidade": 2,
-								"valor": 24
-							},
-							{
-								"sequencia": 6,
-								"codigo": "0302010017",
-								"descricao": "ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTE",
-								"quantidade": 3,
-								"valor": 28.57
-							},
-							{
-								"sequencia": 7,
-								"codigo": "0302010025",
-								"descricao": "ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTE",
-								"quantidade": 3,
-								"valor": 21.01
-							},
-							{
-								"sequencia": 8,
-								"codigo": "0302040056",
-								"descricao": "ATENDIMENTO FISIOTERAPÊUTICO NAS DISFUNÇ",
-								"quantidade": 3,
-								"valor": 21.01
-							}
-						],
-						"instancias": []
-					}
-				],
-				"resumo": [
-					{
-						"abi": "73°",
-						"situacaoAtendimento": "Encerrado",
-						"alegacaoDaAns": "Não impugnado",
-						"quantidade": 1,
-						"valor": 1102.75,
-						"valorDeducao": 1,
-						"valorRessarcimento": 1101.75
-					}
-				]
-			}
-		],
-		"totalizadorUnimedDto": [
-			{
-				"unimed": "976 UNIMED DO ESTADO DE STA CATARINA FEDERACAO ESTADUAL DAS COOP MEDICAS",
-				"valor": 1102.75,
-				"valorDeducao": 1,
-				"valorRessarcimento": 1101.75
-			}
-		]
-	},
-	"template": "relatorio_acompanhamento_atendimentos_v0",
-	"fileName": "relatorio_acompanhamento_atendimentos_25-11-2024_11-23-53",
-	"exportType": "pdf",
-	"expiration": 30,
-	"batchPrint": false
+	"unidade": " - Registro ANS: 355691",
+	"unimedDto": [
+		{
+			"unimed": "976 UNIMED DO ESTADO DE STA CATARINA FEDERACAO ESTADUAL DAS COOP MEDICAS",
+			"atendimentos": [
+				{
+					"abi": "73°",
+					"tipo": "AIH",
+					"contagem": 127,
+					"cco": "039140561609",
+					"beneficiario": "976300001218409 - EVELLYN TOBIAS",
+					"cpf": "093.770.991-37",
+					"empresaContratante": "1101 - CEREALISTA PARISCHI",
+					"atendimento": "2716100187340",
+					"competencia": "02/2017",
+					"caraterAtendimento": "2 - Urgência/Emergência",
+					"valorAtendimento": 1102.75,
+					"valorDeducao": 1,
+					"valorDeducaoDeferida": 0,
+					"valorRetificado": 1101.75,
+					"valorRessarcimento": 1101.75,
+					"prestador": [
+						{
+							"nome": "2005026 - CASA DE SAUDE E MAT N SRA DE FATIMA LTDA",
+							"periodo": "03/02/2017 a 05/02/2017",
+							"endereco": "Rua Fernandes Lima 312 Centro",
+							"cep": "57300-070",
+							"cidade": "Arapiraca/AL"
+						}
+					],
+					"empresa": [
+						{
+							"numeroContrato": "30000001",
+							"planoAns": "448675047",
+							"dataEnvioOperacional": "2024-01-17",
+							"guiaOperacional": "568 9 8889",
+							"numeroFatura": "",
+							"formacaoPreco": "CO - CUSTO OPERACIONAL"
+						}
+					],
+					"procedimentos": [
+						{
+							"sequencia": 1,
+							"codigo": "0411010034",
+							"descricao": "PARTO CESARIANO",
+							"quantidade": 1,
+							"valor": 818.59
+						},
+						{
+							"sequencia": 2,
+							"codigo": "0301010145",
+							"descricao": "PRIMEIRA CONSULTA DE PEDIATRIA AO RECEM-",
+							"quantidade": 1,
+							"valor": 15
+						},
+						{
+							"sequencia": 3,
+							"codigo": "0310010020",
+							"descricao": "ATENDIMENTO AO RECEM-NASCIDO NO MOMENTO ",
+							"quantidade": 1,
+							"valor": 82.8
+						},
+						{
+							"sequencia": 4,
+							"codigo": "0417010010",
+							"descricao": "ANESTESIA OBSTETRICA P/ CESARIANA",
+							"quantidade": 1,
+							"valor": 91.77
+						},
+						{
+							"sequencia": 5,
+							"codigo": "0802010032",
+							"descricao": "DIARIA DE ACOMPANHANTE DE GESTANTE C/ PE",
+							"quantidade": 2,
+							"valor": 24
+						},
+						{
+							"sequencia": 6,
+							"codigo": "0302010017",
+							"descricao": "ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTE",
+							"quantidade": 3,
+							"valor": 28.57
+						},
+						{
+							"sequencia": 7,
+							"codigo": "0302010025",
+							"descricao": "ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTE",
+							"quantidade": 3,
+							"valor": 21.01
+						},
+						{
+							"sequencia": 8,
+							"codigo": "0302040056",
+							"descricao": "ATENDIMENTO FISIOTERAPÊUTICO NAS DISFUNÇ",
+							"quantidade": 3,
+							"valor": 21.01
+						}
+					],
+					"instancias": []
+				}
+			],
+			"resumo": [
+				{
+					"abi": "73°",
+					"situacaoAtendimento": "Encerrado",
+					"alegacaoDaAns": "Não impugnado",
+					"quantidade": 1,
+					"valor": 1102.75,
+					"valorDeducao": 1,
+					"valorRessarcimento": 1101.75
+				}
+			]
+		}
+	],
+	"totalizadorUnimedDto": [
+		{
+			"unimed": "976 UNIMED DO ESTADO DE STA CATARINA FEDERACAO ESTADUAL DAS COOP MEDICAS",
+			"valor": 1102.75,
+			"valorDeducao": 1,
+			"valorRessarcimento": 1101.75
+		}
+	]
 }
